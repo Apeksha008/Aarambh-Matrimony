@@ -1,6 +1,6 @@
 # Aarambh Matrimony
 
-Aarambh is a global matrimony website beginning with a Maharashtra launch focus. This repository contains the website and the database setup files.
+Aarambh is a welcoming matrimony website for people seeking meaningful connections from any background or place. This repository contains the website and the database setup files.
 
 ## What works now
 
