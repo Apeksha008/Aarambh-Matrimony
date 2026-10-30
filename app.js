@@ -29,8 +29,8 @@ const supabaseClient = supabaseReady
 
 if (supabaseReady) {
   connectionStatus.classList.add('is-connected');
-  connectionStatus.querySelector('span:last-child').textContent = 'Website is connected to the Aarambh database';
-  notice.textContent = 'Your details will be sent to Aarambh when you submit this form.';
+  connectionStatus.querySelector('span:last-child').textContent = 'Website is connected to the Arambh database';
+  notice.textContent = 'Your details will be sent to Arambh when you submit this form.';
 } else if (hasSupabaseConfig) {
   connectionStatus.classList.add('is-error');
   connectionStatus.querySelector('span:last-child').textContent = 'Not connected — Supabase could not load';
@@ -59,8 +59,8 @@ form.addEventListener('submit', async (event) => {
     if (supabaseClient) {
       const { error } = await supabaseClient.from('launch_interest').insert(entry);
       if (error) throw error;
-      status.textContent = `Thank you, ${data.name.trim().split(/\s+/)[0]}. You’re on the Aarambh early-access list.`;
-      connectionStatus.querySelector('span:last-child').textContent = 'Confirmed — your entry reached the Aarambh database';
+      status.textContent = `Thank you, ${data.name.trim().split(/\s+/)[0]}. You’re on the Arambh early-access list.`;
+      connectionStatus.querySelector('span:last-child').textContent = 'Confirmed — your entry reached the Arambh database';
     } else if (!hasSupabaseConfig) {
       const list = JSON.parse(localStorage.getItem('aarambh-early-list') || '[]');
       list.push({ ...entry, created_at: new Date().toISOString() });
@@ -71,7 +71,7 @@ form.addEventListener('submit', async (event) => {
     }
     form.reset();
   } catch (error) {
-    console.error('Aarambh early-access submission failed:', error);
+    console.error('Arambh early-access submission failed:', error);
     if (supabaseReady) {
       connectionStatus.classList.remove('is-connected');
       connectionStatus.classList.add('is-error');
