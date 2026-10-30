@@ -1,21 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="82" viewBox="0 0 450 82" role="img" aria-labelledby="title desc">
-  <title id="title">Aarambh — Swipe right on forever.</title>
-  <desc id="desc">Two elegant interlocking wedding rings beside the Aarambh wordmark and tagline.</desc>
-  <defs>
-    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#bd8490"/>
-      <stop offset="1" stop-color="#925561"/>
-    </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ddc294"/>
-      <stop offset="1" stop-color="#b89158"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="29" cy="40" rx="15" ry="25" transform="rotate(-38 29 40)" stroke="url(#rose)" stroke-width="3.2"/>
-    <ellipse cx="51" cy="40" rx="15" ry="25" transform="rotate(38 51 40)" stroke="url(#gold)" stroke-width="3.2"/>
-    <path d="M40 30.5l1.5 3.2 3.5 1.2-3.5 1.2-1.5 3.3-1.4-3.3-3.6-1.2 3.6-1.2z" fill="#c6a36a" stroke="none"/>
-  </g>
-  <text x="88" y="45" fill="#3b3032" font-family="Georgia, 'Times New Roman', serif" font-size="36" letter-spacing=".2">Aarambh</text>
-  <text x="90" y="66" fill="#80696a" font-family="Arial, Helvetica, sans-serif" font-size="12.5" letter-spacing=".45">— Swipe right on forever.</text>
+<title id="title">Aarambh — Swipe right on forever.</title>
+<desc id="desc">A colorful, hand-drawn sunrise and meeting paths beside the Aarambh wordmark and tagline.</desc>
+<defs>
+  <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f07a63"/><stop offset="1" stop-color="#cb4f65"/></linearGradient>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38a99b"/><stop offset="1" stop-color="#15766e"/></linearGradient>
+</defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M13 54C15 34 24 19 39 14c13 5 22 20 24 40" stroke="url(#a)" stroke-width="4"/>
+  <path d="M13 54c13-13 22-13 26 0 4-13 14-13 24 0" stroke="url(#b)" stroke-width="4"/>
+  <path d="M20 59c11 8 26 8 38 0" stroke="#e2b35d" stroke-width="2.4"/>
+</g>
+<circle cx="39" cy="13" r="4" fill="#e2b35d"/>
+<text x="88" y="45" fill="#263b3b" font-family="Georgia, 'Times New Roman', serif" font-size="37">Aarambh</text>
+<text x="90" y="66" fill="#637775" font-family="Arial, Helvetica, sans-serif" font-size="12.5" letter-spacing=".4">— Swipe right on forever.</text>
 </svg>
