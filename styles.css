@@ -422,3 +422,7 @@ body{background:#fffaf6;color:#392f31;font-size:16px}
 .journey .journey-icon{color:#8a3340;background:#fff7f2;border-color:#f1d9d1}
 .journey .journey-foot{color:#f3dfd8;border-color:#d2a6a080}
 .journey .journey-foot span:last-child{color:#f6d2a0}
+
+/* Clear light heading contrast on the journey background */
+.journey .journey-header h2{color:#fffaf6}
+.journey .journey-header h2 em{color:#f4d39f}
