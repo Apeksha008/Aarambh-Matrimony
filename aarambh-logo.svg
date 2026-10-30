@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="92" viewBox="0 0 480 92" role="img" aria-labelledby="title desc">
-<title id="title">Aarambh Matrimony</title>
-<desc id="desc">A white, joined-couple emblem on a deep red seal beside the dark Aarambh Matrimony wordmark and its tagline.</desc>
+<title id="title">Arambh Matrimony</title>
+<desc id="desc">A white, joined-couple emblem on a deep red seal beside the dark Arambh Matrimony wordmark and its tagline.</desc>
 <g transform="translate(5 5)">
 <circle cx="40" cy="41" r="38" fill="#a92e3c"/>
 <!-- Two heads and one flowing, joined silhouette, echoing the supplied logo -->
@@ -10,7 +10,7 @@
 <path d="M34 17c5-10 18-13 26-6 8 7 5 18-3 25l-8 8" fill="none" stroke="#fffaf6" stroke-width="4.6" stroke-linecap="round"/>
 <path d="M18 47c9-4 18-2 26 5 7 6 14 10 24 12" fill="none" stroke="#a92e3c" stroke-width="2.2" stroke-linecap="round"/>
 </g>
-<text x="96" y="47" fill="#302629" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing=".1">Aarambh</text>
+<text x="96" y="47" fill="#302629" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing=".1">Arambh</text>
 <text x="100" y="69" fill="#302629" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" letter-spacing="3.1">M A T R I M O N Y</text>
 <text x="100" y="87" fill="#514347" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing=".25">Swipe right on forever.</text>
 </svg>
