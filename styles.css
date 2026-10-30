@@ -195,3 +195,18 @@ body{background:#fffaf4;color:#263b3b;font-size:16px;line-height:1.7}
 .modal{background:#fffefd;border-radius:12px}
 @media(max-width:900px){.hero{padding-left:6%;padding-right:6%}.section,.join{padding-left:7%;padding-right:7%}.journey{padding-left:7%;padding-right:7%}}
 @media(max-width:680px){.brand-logo,.footer-brand .brand-logo{width:170px}.hero{padding:48px 6% 54px;gap:30px}.hero h1{font-size:clamp(46px,12vw,59px)}.hero-desc{font-size:15px}.hero-visual{height:360px;width:94%}.photo-frame{border-radius:48% 48% 9px 9px}.visual-card{right:-10px;bottom:34px}.values-bar{font-size:11px}.values-title{font-size:16px}.section{padding:72px 7%}.promise-grid article{min-height:255px}.journey{padding:68px 7% 30px}.journey-steps{gap:12px}.journey-steps article{padding:12px 8px}.journey-steps h3{font-size:19px}.journey-steps p{font-size:13px}.membership{padding:68px 7%}.membership-heading{gap:15px}.membership h2{font-size:40px}.join{padding:72px 7%}.join-form{padding:25px 20px}}
+
+.connection-picker{padding:55px 9%;background:#fffefd;border-top:1px solid #f0e6dd;border-bottom:1px solid #f0e6dd}
+.connection-picker-inner{max-width:1150px;margin:0 auto;display:grid;grid-template-columns:.9fr 1.1fr;gap:9%;align-items:center}
+.connection-picker .section-label{color:#176f69}
+.connection-picker h2{font:500 clamp(32px,3.6vw,44px)/1.1 var(--serif);letter-spacing:-.025em;margin:12px 0}
+.connection-picker-intro{font-size:15px;line-height:1.75;color:#647474;max-width:400px;margin:0}
+.feeling-options{display:flex;flex-wrap:wrap;gap:10px}
+.feeling-choice{border:1px solid #d9e7e1;background:#f5faf7;color:#355b58;border-radius:999px;padding:12px 17px;font-size:13px;font-weight:600;transition:transform .2s,background .2s,border-color .2s}
+.feeling-choice:hover{transform:translateY(-2px);border-color:#176f69;background:#e7f3ef}
+.feeling-choice[aria-pressed=true]{background:#176f69;color:#fff;border-color:#176f69;box-shadow:0 6px 16px #176f6926}
+.feeling-response{grid-column:2;margin:15px 0 0;padding:13px 16px;border-left:3px solid #e2b35d;background:#fff7e9;color:#625c51;font:italic 18px/1.45 var(--serif);min-height:54px}
+.feeling-response.is-changing{animation:response-in .28s ease both}
+@keyframes response-in{from{opacity:.35;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:680px){.connection-picker{padding:43px 7%}.connection-picker-inner{display:block}.connection-picker-intro{margin-bottom:20px}.feeling-options{gap:8px}.feeling-choice{padding:10px 13px;font-size:12px}.feeling-response{margin-top:18px}}
+@media(prefers-reduced-motion:reduce){.feeling-response.is-changing{animation:none}}
