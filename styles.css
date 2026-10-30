@@ -86,3 +86,10 @@ body{font-size:16px;line-height:1.7;background:var(--ivory);color:var(--ink)}
 .modal .brand-seal{width:52px;height:52px}
 .modal .brand-seal svg{width:36px;height:36px}
 @media(max-width:680px){.brand-seal{width:39px;height:39px}.brand-seal svg{width:27px;height:27px}.brand-type{font-size:21px}.brand-type small{font-size:7px}}
+
+/* Complete logo lockup */
+.brand-logo{display:block;width:226px;height:auto;flex:none}
+.footer-brand .brand-logo{width:226px}
+.modal-brand-logo{display:block;width:min(255px,100%);height:auto;margin:0 auto 16px}
+@media(max-width:900px){.brand-logo,.footer-brand .brand-logo{width:205px}}
+@media(max-width:680px){.brand-logo,.footer-brand .brand-logo{width:174px}.modal-brand-logo{width:230px}}
