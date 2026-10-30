@@ -93,3 +93,105 @@ body{font-size:16px;line-height:1.7;background:var(--ivory);color:var(--ink)}
 .modal-brand-logo{display:block;width:min(255px,100%);height:auto;margin:0 auto 16px}
 @media(max-width:900px){.brand-logo,.footer-brand .brand-logo{width:205px}}
 @media(max-width:680px){.brand-logo,.footer-brand .brand-logo{width:174px}.modal-brand-logo{width:230px}}
+
+/* A brighter, more playful editorial identity */
+:root{--ivory:#fffaf4;--paper:#fffefd;--green:#c85e54;--deep:#176f69;--ink:#263b3b;--sage:#e7f3ef;--rust:#d45f55;--clay:#e8b65e;--gold:#e2b35d;--muted:#647474;--line:#eadfd6;--serif:'Instrument Serif',Georgia,serif}
+body{background:#fffaf4;color:#263b3b;font-size:16px;line-height:1.7}
+.topline{background:#176f69;color:#fafff8}
+.topline a{color:#ffe2a5}
+.header{background:#fffaf4f5;border-color:#eadfd6}
+.brand-logo,.footer-brand .brand-logo{width:238px}
+.nav{font-size:14px;color:#526766}
+.nav a:hover,.simple-link:hover{color:#d45f55}
+.login{color:#176f69;font-size:14px}
+.button{font-size:14px;padding:14px 21px;border-radius:5px}
+.button-sm{font-size:13px;padding:11px 16px}
+.button-green{background:#d45f55;color:white;box-shadow:0 7px 18px #d45f552b}
+.button-green:hover{background:#b94d49}
+.hero{padding:72px 8.5% 82px;min-height:650px;gap:6%;overflow:hidden}
+.hero-copy{padding-left:3%}
+.eyebrow{font-size:12px;color:#176f69;letter-spacing:.12em}
+.hero h1{font:500 clamp(56px,6.4vw,82px)/.99 var(--serif);letter-spacing:-.04em;margin:24px 0}
+.hero h1 em,h2 em{color:#d45f55}
+.hero-desc{font-size:16px;line-height:1.85;max-width:430px;color:#647474}
+.hero-signature{margin-top:38px}
+.signature-star{width:35px;height:35px;background:#fff1dc;border:0;color:#d45f55}
+.hero-signature b{font-size:13px}.hero-signature small{font-size:12px;color:#647474}
+.hero-visual{height:505px}
+.photo-frame{inset:0 6% 0 2%;border-radius:47% 47% 12px 12px;background-color:#edb5a0;background-image:radial-gradient(circle at 68% 25%,#ffdf8c 0 54px,transparent 55px),radial-gradient(circle at 22% 66%,#65b9a866 0 62px,transparent 63px),radial-gradient(circle at 82% 71%,#e9867077 0 75px,transparent 76px),linear-gradient(145deg,#f1a78e 0%,#d97273 49%,#176f69 100%);box-shadow:0 24px 60px #176f6922}
+.photo-frame::before{inset:11% 11% 15%;border:1px solid #fff9e7a8;border-radius:48% 48% 8px 8px;transform:rotate(0)}
+.photo-frame::after{content:'✷';top:15%;left:67%;transform:translateX(-50%);font-size:clamp(84px,10vw,130px);color:#ffe19b;opacity:.58}
+.photo-overlay{background:linear-gradient(180deg,#263b3b02 0%,#263b3b00 35%,#263b3b9c 100%)}
+.photo-note{font-size:10px;letter-spacing:.17em}.photo-caption p{font-size:31px}.photo-caption small{font-size:12px}
+.visual-card{border-radius:7px;padding:15px 18px;right:0}
+.visual-check{background:#e4f2ed;color:#176f69}
+.visual-card b{font-size:13px;color:#176f69}.visual-card small{font-size:11px}
+.values-bar{background:#fff0dc;color:#586866;min-height:72px;font-size:13px;gap:5%}
+.values-title{font-size:18px;color:#176f69}
+.section{padding:105px 9%}
+.section-label{font-size:11px;color:#647474}
+.promise-head{margin-top:21px}
+.promise h2,.journey h2,.trust h2,.membership h2,.join h2{font-size:clamp(44px,4.8vw,62px);line-height:1.05}
+.promise-head>p,.journey-header>p{font-size:16px;line-height:1.8;color:#647474}
+.promise-grid{gap:18px;margin-top:52px}
+.promise-grid article{min-height:300px;padding:30px;background:#fffefd;border:1px solid #eadfd6;border-radius:10px;box-shadow:0 8px 28px #40504b08}
+.promise-grid article:nth-child(2){background:#f0f7f3}
+.promise-grid article:nth-child(3){background:#fff4e5}
+.promise-icon{width:42px;height:42px;font-size:20px}
+.icon-honest{background:#fff0dc;color:#d45f55}.icon-care{background:#e4f2ed;color:#176f69}.icon-respect{background:#fbe8e2;color:#c85e54}
+.promise-grid article>small{font-size:10px}
+.promise-grid h3{font-size:26px;line-height:1.17}
+.promise-grid p{font-size:14px;line-height:1.8;color:#647474}
+.promise-number{font-size:10px;color:#6d7977}
+.journey{background:#e5f2ed;color:#263b3b;padding:91px 9% 45px}
+.journey:before,.journey:after{color:#176f690b}
+.light-label{color:#647474}.light-label>span:first-child{color:#d45f55}
+.journey h2 em{color:#d45f55}
+.journey-header>p{color:#647474}
+.journey-steps{gap:25px}
+.journey-steps article{padding:16px 14px 12px;border-top:1px solid #b9d4cb}
+.journey-num{color:#d45f55}
+.journey-icon{width:44px;height:44px;border:1px solid #b5d2c9;color:#176f69;background:#f7fbf8;font-size:20px}
+.journey-steps h3{font-size:21px;color:#263b3b}
+.journey-steps p{font-size:14px;line-height:1.75;color:#596e6b;max-width:210px}
+.journey-connector{background:linear-gradient(90deg,#d45f5570,transparent)}
+.journey-foot{border-color:#c9ddd6;color:#596e6b;font-size:12px}.journey-foot span:last-child{color:#176f69}
+.trust{background:#fffefd}
+.trust h2{margin:18px 0}
+.trust-copy>p{font-size:15px;line-height:1.8}
+.trust-list h3{font-size:14px}.trust-list p{font-size:13px;line-height:1.7;color:#647474}
+.trust-art-photo{background:radial-gradient(circle at 50% 29%,#ffdf8c 0 5px,transparent 5.5px),radial-gradient(circle at 50% 29%,transparent 0 32px,#fffaf288 33px 34px,transparent 35px),radial-gradient(circle at 50% 29%,transparent 0 78px,#fffaf255 79px 80px,transparent 81px),linear-gradient(145deg,#f1bd77 0%,#e57a68 52%,#3a9b8c 100%);border-radius:48% 48% 9px 9px}
+.trust-art-wash{border-radius:48% 48% 9px 9px}
+.trust-sticker{background:#ffe2a5;color:#176f69;width:96px;height:96px}
+.membership{background:#fff1dd}
+.membership-heading{margin:22px 0 38px}.membership-heading p{font-size:15px;line-height:1.8;color:#647474}
+.membership-orbit{border-color:#e8c98f;color:#176f69}.membership-orbit span{color:#d45f55}
+.plans{gap:18px}
+.plan{padding:30px;background:#fffefd;border:1px solid #eadfd6;border-radius:10px;box-shadow:0 8px 28px #4c3a2809}
+.plan-featured{background:#e5f2ed;border-color:#c9ddd6;color:#263b3b}
+.plan-overline,.plan-featured .plan-overline{color:#647474}.plan-overline span,.plan-featured .plan-overline span{color:#d45f55}
+.plan h3{font-size:26px}.plan>p,.plan-featured>p{font-size:14px;line-height:1.75;color:#647474}
+.plan ul,.plan-featured ul{border-color:#eadfd6}.plan li,.plan-featured li{font-size:13px;color:#536462}
+.plan li:before,.plan-featured li:before{color:#176f69}
+.button-outline{border-color:#176f69;color:#176f69}.button-outline:hover{background:#176f69}
+.button-gold{background:#f1c86f;color:#443a2b;border-radius:5px}
+.plan-footnote{font-size:12px;color:#647474}
+.join{background:#fffaf4;padding:94px 9%}
+.join h2{font-size:clamp(48px,5vw,66px)}
+.join-copy>p{font-size:15px;line-height:1.85;color:#647474}
+.join-promise b{font-size:14px;color:#176f69}.join-promise small{font-size:12px;line-height:1.7;color:#647474}
+.join-form{background:#fffefd;border:1px solid #eadfd6;border-radius:12px;padding:36px;box-shadow:0 18px 50px #3b49440e}
+.form-title>span{font-size:10px;color:#d45f55}
+.form-title h3{font-size:27px}.form-title p{font-size:14px;color:#647474}
+.join-form>label,.form-row label{font-size:12px;color:#485b58}
+.join-form input:not([type=checkbox]),.join-form select{height:46px;font-size:14px;border-radius:5px;background:#fff}
+.consent{font-size:12px!important}.consent input{accent-color:#176f69}
+.submit{border-radius:5px}
+.footer{background:#e5f2ed;color:#263b3b;border-top:1px solid #cfe1da}
+.footer-brand .brand-type{color:#263b3b}.footer-brand .brand-type small{color:#647474}
+.footer-top>div:first-child>p{color:#647474}
+.footer-nav b{color:#176f69}.footer-nav a{font-size:13px;color:#536462}.footer-nav a:hover{color:#d45f55}
+.footer-bottom{border-color:#c9ddd6;color:#647474;font-size:11px}
+.modal{background:#fffefd;border-radius:12px}
+@media(max-width:900px){.hero{padding-left:6%;padding-right:6%}.section,.join{padding-left:7%;padding-right:7%}.journey{padding-left:7%;padding-right:7%}}
+@media(max-width:680px){.brand-logo,.footer-brand .brand-logo{width:170px}.hero{padding:48px 6% 54px;gap:30px}.hero h1{font-size:clamp(46px,12vw,59px)}.hero-desc{font-size:15px}.hero-visual{height:360px;width:94%}.photo-frame{border-radius:48% 48% 9px 9px}.visual-card{right:-10px;bottom:34px}.values-bar{font-size:11px}.values-title{font-size:16px}.section{padding:72px 7%}.promise-grid article{min-height:255px}.journey{padding:68px 7% 30px}.journey-steps{gap:12px}.journey-steps article{padding:12px 8px}.journey-steps h3{font-size:19px}.journey-steps p{font-size:13px}.membership{padding:68px 7%}.membership-heading{gap:15px}.membership h2{font-size:40px}.join{padding:72px 7%}.join-form{padding:25px 20px}}
