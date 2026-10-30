@@ -336,3 +336,78 @@ body{background:#fbf8f4;color:#3d3535;font-size:16px;line-height:1.72}
 .values-bar{gap:12px;font-size:10px}.values-title{font-size:13px}.section{padding-top:66px;padding-bottom:66px}.promise-grid{display:block}.promise-grid article{min-height:0;padding:22px 4px;border-right:0;border-bottom:1px solid #e8dfd9}.promise-grid article:last-child{border-bottom:0}.promise-grid p{max-width:360px}
 .journey{padding:62px 7% 28px}.journey-steps{gap:13px}.journey-steps h3{font-size:15px}.journey-steps p{font-size:10px}
 .membership{padding:60px 7%}.membership h2{font-size:34px}.plan{padding:20px}.join{padding:64px 7%}.join-form{padding:22px 18px}.footer{padding:28px 7% 13px}}
+
+/* Aarambh marketplace identity */
+:root{--ivory:#fffaf6;--paper:#ffffff;--green:#a92e3c;--deep:#4a2027;--ink:#392f31;--sage:#f8ecea;--rust:#be4650;--clay:#c78175;--gold:#d7a958;--muted:#766a6b;--line:#eadedb}
+body{background:#fffaf6;color:#392f31;font-size:16px}
+.topline{background:#4a2027;color:#fff3ee}
+.topline a{color:#f4d8b4}
+.header{height:88px;padding:0 6%;background:#fffaf6f5;border-color:#efe3df}
+.brand-logo{display:block;width:222px;height:auto;max-height:76px}
+.nav{gap:28px;color:#5d4d50;font-size:13px}
+.button-green{background:#a92e3c}.button-green:hover{background:#84232f}
+.button{border-radius:4px}
+.market-hero{min-height:550px;padding:58px 8% 60px;background:linear-gradient(105deg,#fffaf6 0%,#fffaf6 57%,#f8ece8 57%,#f8ece8 100%);gap:6%}
+.market-hero .hero-copy{padding-left:2%}
+.market-hero h1{font-size:clamp(51px,5.6vw,72px);line-height:1.03;color:#392f31}
+.market-hero h1 em,.discover-heading h2 em{color:#a92e3c}
+.market-hero .hero-desc{font-size:15px;max-width:440px}
+.market-hero .hero-signature{margin-top:31px}
+.market-hero .signature-star{color:#a92e3c;border-color:#e5c9c8}
+.market-visual{height:430px;display:grid;place-items:center}
+.market-card{position:relative;width:min(100%,370px);height:390px;background:#fff;border:1px solid #eadad6;box-shadow:0 18px 48px #5b27301b;padding:22px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+.market-card:before{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:#f9eeeb;top:65px;left:50%;transform:translateX(-50%)}
+.market-card-top,.market-card-foot{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;color:#826c6b;font-size:9px;letter-spacing:.16em}
+.market-card-mark{font-size:22px;color:#a92e3c}
+.couple-illustration{position:relative;z-index:1;height:190px;display:flex;justify-content:center;align-items:center}
+.orbit{position:absolute;border:1px solid #dfb4ac;border-radius:50%;width:138px;height:138px}
+.orbit-a{transform:translateX(-24px)}.orbit-b{transform:translateX(24px)}
+.person{position:absolute;width:64px;height:64px;border-radius:50% 50% 46% 46%;background:#a92e3c;top:50px}
+.person:before{content:"";position:absolute;width:30px;height:30px;background:#dcae8e;border-radius:50%;top:-20px;left:17px}
+.person:after{content:"";position:absolute;width:75px;height:49px;background:#bd6970;border-radius:44px 44px 8px 8px;top:45px;left:-6px}
+.person-a{left:calc(50% - 66px);transform:rotate(-9deg)}.person-b{right:calc(50% - 66px);background:#67505a;transform:rotate(9deg)}
+.person-b:after{background:#6c5862}.heart{position:absolute;z-index:2;top:60px;left:calc(50% - 13px);font-size:24px;color:#fffaf6;text-shadow:0 1px 4px #7a2630}
+.market-card-caption{position:relative;z-index:1;text-align:center}
+.market-card-caption span{font-size:8px;letter-spacing:.2em;color:#a92e3c;font-weight:700}
+.market-card-caption h2{font:34px/1.1 var(--serif);margin:7px 0;color:#392f31}
+.market-card-caption p{font-size:11px;color:#766a6b;margin:0}
+.market-card-foot{border-top:1px solid #f0e4e0;padding-top:12px;font-size:8px}
+.market-card-foot span:last-child{color:#a92e3c;font-size:16px}
+.market-stamp{position:absolute;right:-4px;bottom:22px;border:1px solid #d8b5ad;background:#fffaf6;color:#a92e3c;width:83px;height:83px;border-radius:50%;display:grid;place-content:center;text-align:center;font-size:8px;line-height:1.5;letter-spacing:.12em;transform:rotate(8deg)}
+.market-stamp b{font-size:15px}
+.discover-section{padding:66px 9% 70px;background:#fff}
+.discover-heading{display:flex;align-items:end;justify-content:space-between;gap:34px;margin-bottom:27px}
+.discover-heading h2{font:500 clamp(33px,4vw,46px)/1.08 var(--serif);letter-spacing:-.025em;margin:12px 0 0}
+.discover-heading>p{max-width:320px;color:#766a6b;font-size:13px;line-height:1.75;margin:0 0 4px}
+.persona-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.persona-card{position:relative;min-height:150px;padding:20px 21px;background:#fffaf6;border:1px solid #ebdfdb;display:flex;flex-direction:column;align-items:flex-start;transition:transform .2s,border-color .2s,box-shadow .2s}
+.persona-card:hover{transform:translateY(-3px);border-color:#ca8584;box-shadow:0 10px 25px #682c3210}
+.persona-number{position:absolute;right:17px;top:17px;font-size:9px;color:#a99491}
+.persona-icon{font-size:22px;color:#a92e3c;margin-bottom:10px}
+.persona-card b{font:21px var(--serif);font-weight:500;color:#392f31}
+.persona-card small{font-size:11px;color:#766a6b;margin-top:4px}
+.persona-arrow{position:absolute;right:18px;bottom:16px;color:#a92e3c;font-size:19px}
+.profile-preview{margin-top:20px;padding:19px 22px;display:flex;align-items:center;gap:15px;background:#f8f0ed;border-left:3px solid #a92e3c}
+.profile-preview-icon{width:38px;height:38px;border-radius:50%;background:#fff;color:#a92e3c;display:grid;place-items:center;font-size:18px;flex:0 0 auto}
+.profile-preview b{font:19px var(--serif);font-weight:500}
+.profile-preview p{margin:3px 0 0;color:#766a6b;font-size:11px;line-height:1.6}
+.text-link{margin-left:auto;color:#a92e3c;font-size:11px;font-weight:700;white-space:nowrap}.text-link span{font-size:16px;margin-left:5px}
+.section-label{color:#8b7778}
+.promise.section{padding-top:76px;padding-bottom:80px;background:#fffaf6}
+.promise h2,.trust h2,.membership h2{color:#392f31}
+.promise-grid article{background:#fff;border-color:#ebdfdb}
+.journey{background:#742b37}
+.journey:before,.journey:after{color:#ffffff09}
+.trust.section{background:#fff}
+.membership.section{background:#fffaf6}
+.join{background:#f8eeea}
+.join-form{background:#fff;border-color:#e7d8d3;box-shadow:0 15px 40px #5b27300d}
+.join .section-label,.join h2 em{color:#a92e3c}
+.login{color:#8e2632}
+.modal{border-color:#eadbd6}
+.footer{background:#4a2027!important;color:#fff1ed!important;border-color:#4a2027!important}
+.footer-brand .brand-logo{filter:brightness(0) invert(1)}
+.footer-top>div:first-child>p,.footer-nav a,.footer-bottom{color:#e5d3cf!important}
+.footer-nav b{color:#f1c2ae!important}
+@media(max-width:850px){.nav{gap:15px}.header{padding:0 4%}.brand-logo{width:190px}}
+@media(max-width:680px){.header{height:74px;padding:0 5%}.brand-logo{width:183px}.market-hero{padding:44px 7% 48px;background:linear-gradient(180deg,#fffaf6 0 48%,#f8ece8 48% 100%);gap:22px}.market-hero .hero-copy{padding-left:0}.market-hero h1{font-size:clamp(47px,12vw,61px)}.market-visual{height:365px}.market-card{height:335px;width:min(100%,340px);padding:18px}.couple-illustration{height:156px}.market-card-caption h2{font-size:30px}.market-stamp{right:0;bottom:12px}.discover-section{padding:53px 7%}.discover-heading{display:block}.discover-heading>p{margin-top:12px}.persona-grid{grid-template-columns:1fr;gap:9px}.persona-card{min-height:116px;padding:16px 18px}.persona-icon{margin-bottom:4px}.profile-preview{align-items:flex-start;flex-wrap:wrap;padding:16px}.profile-preview>div:nth-child(2){flex:1;min-width:200px}.text-link{margin-left:52px}.footer-brand .brand-logo{width:190px}.journey{background:#742b37}}

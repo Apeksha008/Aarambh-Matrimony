@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="82" viewBox="0 0 420 82" role="img" aria-labelledby="title desc">
-<title id="title">Aarambh — Swipe right on forever.</title><desc id="desc">An elegant Aarambh wordmark with its forever tagline.</desc>
-<path d="M5 19l3-7 3 7 7 3-7 3-3 7-3-7-7-3z" transform="translate(3 12)" fill="#c0a178"/>
-<text x="31" y="43" fill="#47383a" font-family="Georgia, 'Times New Roman', serif" font-size="40" letter-spacing=".1">Aarambh</text>
-<text x="34" y="65" fill="#817577" font-family="Arial, Helvetica, sans-serif" font-size="12.5" letter-spacing=".65">— Swipe right on forever.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="88" viewBox="0 0 440 88" role="img" aria-labelledby="title desc">
+<title id="title">Aarambh Matrimony</title><desc id="desc">A warm red emblem of two people joining together beside the Aarambh name and the tagline Swipe right on forever.</desc>
+<g transform="translate(5 5)">
+<circle cx="38" cy="39" r="35" fill="#a92e3c"/>
+<path d="M14 55c2-11 9-17 20-17 8 0 12 4 16 10 4-6 9-10 17-10 11 0 18 6 20 17-7 8-18 13-36 13S21 63 14 55Z" fill="#fffaf6"/>
+<circle cx="29" cy="28" r="7.4" fill="#fffaf6"/><circle cx="58" cy="28" r="7.4" fill="#fffaf6"/>
+<path d="M37 21c2-8 10-12 16-8 6 3 6 10 1 15l-8 8" fill="none" stroke="#fffaf6" stroke-width="4" stroke-linecap="round"/>
+</g>
+<text x="92" y="46" fill="#39262a" font-family="Georgia, 'Times New Roman', serif" font-size="39" letter-spacing=".1">Aarambh</text>
+<text x="95" y="64" fill="#a92e3c" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" letter-spacing="3.2">M A T R I M O N Y</text>
+<text x="95" y="80" fill="#78676a" font-family="Arial, Helvetica, sans-serif" font-size="9.5" letter-spacing=".3">Swipe right on forever.</text>
+</svg>
