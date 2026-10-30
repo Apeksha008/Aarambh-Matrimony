@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://apeksha008.github.io/Aarambh-Matrimony/sitemap.xml
