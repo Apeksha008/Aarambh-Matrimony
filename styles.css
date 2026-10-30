@@ -244,3 +244,18 @@ body{background:#fffaf4;color:#253a39;font-size:16px;line-height:1.7}.topline{ba
 .connection-picker{background:#fffefd;border-color:#efe5dc}.connection-picker h2{font-size:clamp(34px,3.6vw,46px);color:#253a39}.feeling-choice{border-color:#c8ded6;background:#f3f8f5;color:#355b58;border-radius:999px;padding:12px 17px;font-size:13px}.feeling-choice:hover{border-color:#16766e;background:#e7f3ef}.feeling-choice[aria-pressed=true]{background:#16766e;color:white;border-color:#16766e;box-shadow:0 7px 17px #16766e27}.feeling-response{border-color:#e2b35d;background:#fff5e4;color:#5c5b50;font-size:19px}.modal{background:#fffefd;border-radius:12px}
 @media(max-width:900px){.hero{padding-left:6%;padding-right:6%}.section,.join{padding-left:7%;padding-right:7%}.journey{padding-left:7%;padding-right:7%}.brand-logo,.footer-brand .brand-logo{width:205px}}
 @media(max-width:680px){.brand-logo,.footer-brand .brand-logo{width:174px}.hero{padding:46px 6% 55px;gap:30px}.hero h1{font-size:clamp(46px,12vw,60px)}.hero-desc{font-size:15px}.hero-visual{height:365px;width:94%}.photo-frame{border-radius:48% 48% 12px 12px}.visual-card{right:-9px;bottom:34px}.values-bar{font-size:11px}.values-title{font-size:16px}.section{padding:70px 7%}.promise-grid article{min-height:255px}.journey{padding:65px 7% 30px}.journey-steps{gap:12px}.journey-steps article{padding:12px 8px}.journey-steps h3{font-size:19px}.journey-steps p{font-size:13px}.membership{padding:66px 7%}.membership-heading{gap:15px}.membership h2{font-size:40px}.join{padding:70px 7%}.join-form{padding:25px 20px}.connection-picker{padding:44px 7%}.connection-picker-inner{display:block}.connection-picker-intro{margin-bottom:20px}.feeling-options{gap:8px}.feeling-choice{padding:10px 13px;font-size:12px}.feeling-response{margin-top:18px}}
+
+/* Keep the hero card and menu clear at tablet widths */
+.visual-card{top:35%;bottom:auto;z-index:4}
+.photo-caption{max-width:calc(100% - 68px)}
+@media(min-width:681px) and (max-width:960px){
+ .header{height:72px;padding:0 4%}
+ .brand-logo,.footer-brand .brand-logo{width:184px}
+ .nav-toggle{display:block;margin-left:auto;margin-right:12px;border:0;background:none;color:#16766e;font-size:20px}
+ .nav{display:none;position:absolute;top:71px;left:0;right:0;padding:10px 6%;flex-direction:column;gap:0;background:#fffaf4;border-bottom:1px solid #eadfd6}
+ .nav.open{display:flex}
+ .nav a{padding:11px 0;border-bottom:1px solid #efe5dc}
+ .header-actions{gap:9px}
+ .header-actions .button{padding:10px 12px;font-size:12px}
+}
+@media(max-width:680px){.visual-card{top:23%;bottom:auto}.photo-caption{max-width:calc(100% - 45px)}}
