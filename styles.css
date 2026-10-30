@@ -411,3 +411,14 @@ body{background:#fffaf6;color:#392f31;font-size:16px}
 .footer-nav b{color:#f1c2ae!important}
 @media(max-width:850px){.nav{gap:15px}.header{padding:0 4%}.brand-logo{width:190px}}
 @media(max-width:680px){.header{height:74px;padding:0 5%}.brand-logo{width:183px}.market-hero{padding:44px 7% 48px;background:linear-gradient(180deg,#fffaf6 0 48%,#f8ece8 48% 100%);gap:22px}.market-hero .hero-copy{padding-left:0}.market-hero h1{font-size:clamp(47px,12vw,61px)}.market-visual{height:365px}.market-card{height:335px;width:min(100%,340px);padding:18px}.couple-illustration{height:156px}.market-card-caption h2{font-size:30px}.market-stamp{right:0;bottom:12px}.discover-section{padding:53px 7%}.discover-heading{display:block}.discover-heading>p{margin-top:12px}.persona-grid{grid-template-columns:1fr;gap:9px}.persona-card{min-height:116px;padding:16px 18px}.persona-icon{margin-bottom:4px}.profile-preview{align-items:flex-start;flex-wrap:wrap;padding:16px}.profile-preview>div:nth-child(2){flex:1;min-width:200px}.text-link{margin-left:52px}.footer-brand .brand-logo{width:190px}.journey{background:#742b37}}
+
+/* Warm, readable type on the deep-red journey panel */
+.journey .light-label{color:#f8e6e0}
+.journey .light-label>span:first-child{color:#f1c998}
+.journey .journey-header>p{color:#f5e6df}
+.journey .journey-steps h3{color:#fffaf6}
+.journey .journey-steps p{color:#f0ddd6}
+.journey .journey-num{color:#f2cbbd}
+.journey .journey-icon{color:#8a3340;background:#fff7f2;border-color:#f1d9d1}
+.journey .journey-foot{color:#f3dfd8;border-color:#d2a6a080}
+.journey .journey-foot span:last-child{color:#f6d2a0}
