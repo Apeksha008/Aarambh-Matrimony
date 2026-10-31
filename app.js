@@ -1,8 +1,11 @@
 const loginModal = document.querySelector('#login-modal');
-document.querySelector('[data-login]').addEventListener('click', () => loginModal.showModal());
-document.querySelector('.modal-close').addEventListener('click', () => loginModal.close());
-loginModal.addEventListener('click', (event) => { if (event.target === loginModal) loginModal.close(); });
-loginModal.querySelector('a').addEventListener('click', () => loginModal.close());
+const legacyLogin = document.querySelector('[data-login]');
+if (legacyLogin && loginModal) {
+  legacyLogin.addEventListener('click', () => loginModal.showModal());
+  document.querySelector('.modal-close')?.addEventListener('click', () => loginModal.close());
+  loginModal.addEventListener('click', (event) => { if (event.target === loginModal) loginModal.close(); });
+  loginModal.querySelector('a')?.addEventListener('click', () => loginModal.close());
+}
 
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.nav');

@@ -1,25 +1,17 @@
-# Aarambh Matrimony
+# Arambh Matrimony
 
-Aarambh is a welcoming matrimony website for people seeking meaningful connections from any background or place. This repository contains the website and the database setup files.
+Arambh is a matrimony website for people and families seeking thoughtful introductions from every background.
 
-## What works now
+## Member features
 
-- Responsive website and early-access form
-- Form submission to the Supabase `launch_interest` table
-- Row Level Security so public visitors can submit, but cannot read other sign-ups
-- Preview-only mode if Supabase is not configured
+- Supabase account registration and login
+- Member profile creation, including age, height, location, education, family details, nature, expectations, and optional photo
+- Matching preferences for gender, age, height, religion/community, location, and education
+- Authenticated member directory with profile filters
+- Row Level Security and private profile photo storage
 
-## Project folders
+To enable member profiles, run `supabase/member-marketplace.sql` in the connected Supabase project's SQL Editor. See [CONNECTING-SUPABASE.md](CONNECTING-SUPABASE.md) for setup and privacy behavior. The browser code uses only the public publishable key; never commit a Supabase secret or service-role key.
 
-- `index.html`, `styles.css`, `app.js` — website
-- `supabase-config.js` — Supabase project URL and public publishable key
-- `supabase/schema.sql` — early-access table and its access rules
-- `CONNECTING-SUPABASE.md` — setup notes
+## Website
 
-The publishable key is meant for browser code. Never add a Supabase secret or `service_role` key, database password, or real member information to this public repository.
-
-## Current scope
-
-The database connection covers the early-access form only. Member accounts, member profiles, profile photos, matching, messaging, payments, and moderation tools are not connected yet.
-
-Before collecting real member information, publish a privacy notice and contact details, and add spam protection. The current form is intended for the early-access list.
+The live site is published through GitHub Pages at https://apeksha008.github.io/Aarambh-Matrimony/.
