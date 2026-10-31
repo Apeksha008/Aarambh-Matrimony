@@ -1,5 +1,6 @@
 (() => {
   const config = window.AARAMBH_SUPABASE || {};
+  const authRedirectUrl = 'https://apeksha008.github.io/Aarambh-Matrimony/members.html';
   const authPanel = document.querySelector('#auth-panel');
   const workspace = document.querySelector('#member-workspace');
   const notice = document.querySelector('#app-notice');
@@ -358,7 +359,7 @@
     const email = form.elements.email.value.trim();
     const { data, error } = await supabaseClient.auth.signUp({
       email, password: form.elements.password.value,
-      options: { emailRedirectTo: new URL('members.html', window.location.href).href },
+      options: { emailRedirectTo: authRedirectUrl },
     });
     if (error) { setStatus(authStatus, error.message, 'error'); return; }
     form.reset();
@@ -380,7 +381,7 @@
     const email = document.querySelector('#login-email').value.trim();
     if (!email) { setStatus(authStatus, 'Enter your email address first.'); return; }
     const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
-      redirectTo: new URL('members.html', window.location.href).href,
+      redirectTo: authRedirectUrl,
     });
     setStatus(authStatus, error ? error.message : 'Password reset instructions have been sent to your email.', error ? 'error' : 'success');
   });
